@@ -2,6 +2,8 @@ package com.mcfilkin;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Printable printer = new Printer();
+        String someText = printer.print("Some");
+        System.out.println(someText);
     }
 }
